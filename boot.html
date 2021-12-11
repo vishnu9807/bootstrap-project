@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootStrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .adding {
+            padding: 0px;
+        }
+
+        .circle {
+            width: 40px;
+            height: 50px;
+            line-height: 40px;
+            border-radius: 50%;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+            background: orangered
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-black justify-content-between"> -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Customers
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Resource</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <a class="nav-link" href="#" style="color:white;">Bag<span class="circle">2</span></a>
+
+            </form>
+
+
+        </div>
+        <!-- </nav> -->
+    </nav>
+
+    <div class="row" style="padding-left: 10px;">
+        <div class="col">
+            <h1>Hello class</h1>
+            <p>
+                Bootstrap’s form expand on our Rebooted form styles<br> with classes, Use these classes to opt into
+                their
+                customized <br>displays for a more consistent rendering across browsers and devices.<br>
+                <button type="button" class="btn btn-secondary">view Details</button>
+            </p>
+        </div>
+        <div class="col">
+            <h1>Documentation</h1>
+            <p>
+                Bootstrap’s form expand on our Rebooted form styles with classes.<br> Use these classes to opt into
+                their
+                customized displays <br>for a more consistent rendering across browsers and devices.<br>
+                <button type="button" class="btn btn-secondary">view Details</button>
+            </p>
+        </div>
+        <div class="col">
+            <h1>BootStrap</h1>
+            <p>
+                Bootstrap’s form expand on our Rebooted form styles with classes.<br> Use these classes to opt into
+                their
+                customized displays <br>for a more consistent rendering across browsers and devices.<br>
+                <button type="button" class="btn btn-secondary">view Details</button>
+            </p>
+        </div>
+    </div>
+
+    <div id="gallery" class="carousel slide" data-ride="carousel" style="padding: 0pt;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col adding">
+                        <img class="img-fluid" src="x1.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+
+                    <div class="col adding">
+                        <img class="img-fluid" src="x2.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+
+                    <div class="col adding">
+                        <img class="img-fluid" src="x3.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+
+                    <div class="col adding">
+                        <img class="img-fluid" src="x4.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+
+                    <div class="col adding">
+                        <img class="img-fluid" src="x5.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col adding">
+                        <img class="img-fluid" src="x6.jpg" alt="Image 6" width="800" height="500" />
+                    </div>
+
+                    <div class="col adding">
+                        <img class="img-fluid" src="x7.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+
+                    <div class="col adding">
+                        <img class="img-fluid" src="x8.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+
+                    <div class="col adding">
+                        <img class="img-fluid" src="x9.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+
+                    <div class="col adding">
+                        <img class="img-fluid" src="x10.jpg" alt="Image 1" width="800" height="500" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#gallery" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+</body>
+
+</html>
